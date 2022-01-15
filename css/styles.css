@@ -141,7 +141,7 @@ a.purple {
 	display: inline-block;
 	padding: 1.1875rem 2.125rem 1.1875rem 2.125rem;
 	border: 0.125rem solid #9F58F2;
-	margin: 0.25rem;
+	margin: 0.5rem;
 	border-radius: 2rem;
 	background-color: #9F58F2;
 	color: #fff;
@@ -152,7 +152,7 @@ a.purple {
 
 .btn-solid-reg:hover {
 	border: 0.125rem solid #9F58F2;
-	margin: 0.25rem;
+	margin: 0.5rem;
 	background-color: transparent;
 	color: #9F58F2;
 	text-decoration: none;
@@ -162,7 +162,7 @@ a.purple {
 	display: inline-block;
 	padding: 1.5rem 2.375rem 1.5rem 2.375rem;
 	border: 0.125rem solid #9F58F2;
-	margin: 0.25rem;
+	margin: 0.5rem;
 	border-radius: 2rem;
 	background-color: #9F58F2;
 	color: #fff;
@@ -173,7 +173,7 @@ a.purple {
 
 .btn-solid-lg:hover {
 	border: 0.125rem solid #9F58F2;
-	margin: 0.25rem;
+	margin: 0.5rem;
 	background-color: transparent;
 	color: #9F58F2;
 	text-decoration: none;
@@ -198,7 +198,7 @@ unavailable button
 	display: inline-block;
 	padding: 1.1875rem 2.125rem 1.1875rem 2.125rem;
 	border: 0.125rem solid #c9a5f2;
-	margin: 0.25rem;
+	margin: 0.5rem;
 	border-radius: 2rem;
 	background-color: #c9a5f2;
 	color: #fff;
@@ -210,7 +210,7 @@ unavailable button
 	display: inline-block;
 	padding: 1.5rem 2.375rem 1.5rem 2.375rem;
 	border: 0.125rem solid #c9a5f2;
-	margin: 0.25rem;
+	margin: 0.5rem;
 	border-radius: 2rem;
 	background-color: #c9a5f2;
 	color: #fff;
@@ -234,7 +234,7 @@ unavailable button
 	display: inline-block;
 	padding: 1.1875rem 2.125rem 1.1875rem 2.125rem;
 	border: 0.125rem solid #333;
-	margin: 0.25rem;
+	margin: 0.5rem;
 	border-radius: 2rem;
 	background-color: transparent;
 	color: #333;
@@ -245,7 +245,7 @@ unavailable button
 
 .btn-outline-reg:hover {
 	border: 0.125rem solid #333;
-	margin: 0.25rem;
+	margin: 0.5rem;
 	background-color: #333;
 	color: #fff;
 	text-decoration: none;
@@ -255,7 +255,7 @@ unavailable button
 	display: inline-block;
 	padding: 1.5rem 2.375rem 1.5rem 2.375rem;
 	border: 0.125rem solid #333;
-	margin: 0.25rem;
+	margin: 0.5rem;
 	border-radius: 2rem;
 	background-color: transparent;
 	color: #333;
