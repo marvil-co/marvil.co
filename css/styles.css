@@ -1646,6 +1646,11 @@ a:hover.back-to-top {
 		max-width: 100%;
 		vertical-align: top;
 	}
+
+	img {
+		border-radius: 1rem;
+	}
+
 	/* end of small features */
 
 
