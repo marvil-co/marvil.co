@@ -25,16 +25,17 @@ Table Of Contents:
 16. Back To Top Button
 17. Extra Pages
 18. Media Queries
+19. Elements
 ******************************************/
 
 /*****************************************
 Colors:
-- Backgrounds - light gray #f7fafd
-- Backgrounds - gray #e8eff6
-- Buttons - purple #9F58F2
-- Other - blue #3767E5
-- Headings text, navbar links - black #333
-- Body text - dark gray #777
+- Dark Backgrounds - #0C0414
+- Darkish Backgrounds - #21172b
+- Buttons - #9F58F2
+- Other - #3767E5
+- Headings text, navbar links - #fff
+- Body text - #ddd
 ******************************************/
 
 
@@ -48,7 +49,7 @@ html {
 }
 
 body, p {
-	color: #777; 
+	color: #ddd; 
 	font: 400 1rem/1.75rem "Nunito";
 }
 
@@ -74,32 +75,32 @@ img {
 }
 
 h1 {
-	color: #333;
+	color: #fff;
 	font: 700 2.625rem/3.375rem "Nunito";
 }
 
 h2 {
-	color: #333;
+	color: #fff;
 	font: 700 2.125rem/2.75rem "Nunito";
 }
 
 h3 {
-	color: #333;
+	color: #fff;
 	font: 700 1.75rem/2.375rem "Nunito";
 }
 
 h4 {
-	color: #333;
+	color: #fff;
 	font: 700 1.25rem/1.75rem "Nunito";
 }
 
 h5 {
-	color: #333;
+	color: #fff;
 	font: 700 1.125rem/1.625rem "Nunito";
 }
 
 h6 {
-	color: #333;
+	color: #fff;
 	font: 700 1rem/1.5rem "Nunito";
 }
 
@@ -119,7 +120,7 @@ h6 {
 }
 
 a {
-	color: #555;
+	color: #fff;
 	text-decoration: underline;
 }
 
@@ -129,7 +130,7 @@ a:disabled {
 }
 
 a:hover {
-	color: #555;
+	color: #ddd;
 	text-decoration: underline;
 }
 
@@ -197,10 +198,10 @@ unavailable button
 .btn-unavaiable-reg {
 	display: inline-block;
 	padding: 1.1875rem 2.125rem 1.1875rem 2.125rem;
-	border: 0.125rem solid #c9a5f2;
+	border: 0.125rem solid #8060a5;
 	margin: 0.5rem;
 	border-radius: 2rem;
-	background-color: #c9a5f2;
+	background-color: #8060a5;
 	color: #fff;
 	font: 700 0.875rem/0 "Nunito";
 	text-decoration: none;
@@ -209,10 +210,10 @@ unavailable button
 .btn-unavaiable-lg {
 	display: inline-block;
 	padding: 1.5rem 2.375rem 1.5rem 2.375rem;
-	border: 0.125rem solid #c9a5f2;
+	border: 0.125rem solid #8060a5;
 	margin: 0.5rem;
 	border-radius: 2rem;
-	background-color: #c9a5f2;
+	background-color: #8060a5;
 	color: #fff;
 	font: 700 0.875rem/0 "Nunito";
 	text-decoration: none;
@@ -233,20 +234,20 @@ unavailable button
 .btn-outline-reg {
 	display: inline-block;
 	padding: 1.1875rem 2.125rem 1.1875rem 2.125rem;
-	border: 0.125rem solid #333;
+	border: 0.125rem solid #fff;
 	margin: 0.5rem;
 	border-radius: 2rem;
 	background-color: transparent;
-	color: #333;
+	color: #fff;
 	font: 700 0.875rem/0 "Nunito";
 	text-decoration: none;
 	transition: all 0.2s;
 }
 
 .btn-outline-reg:hover {
-	border: 0.125rem solid #333;
+	border: 0.125rem solid #fff;
 	margin: 0.5rem;
-	background-color: #333;
+	background-color: #fff;
 	color: #fff;
 	text-decoration: none;
 }
@@ -254,19 +255,19 @@ unavailable button
 .btn-outline-lg {
 	display: inline-block;
 	padding: 1.5rem 2.375rem 1.5rem 2.375rem;
-	border: 0.125rem solid #333;
+	border: 0.125rem solid #fff;
 	margin: 0.5rem;
 	border-radius: 2rem;
 	background-color: transparent;
-	color: #333;
+	color: #fff;
 	font: 700 0.875rem/0 "Nunito";
 	text-decoration: none;
 	transition: all 0.2s;
 }
 
 .btn-outline-lg:hover {
-	border: 0.125rem solid #333;
-	background-color: #333;
+	border: 0.125rem solid #fff;
+	background-color: #fff;
 	color: #fff;
 	text-decoration: none;
 }
@@ -274,18 +275,18 @@ unavailable button
 .btn-outline-sm {
 	display: inline-block;
 	padding: 1rem 1.5rem 1rem 1.5rem;
-	border: 0.125rem solid #333;
+	border: 0.125rem solid #fff;
 	border-radius: 2rem;
 	background-color: transparent;
-	color: #333;
+	color: #fff;
 	font: 700 0.875rem/0 "Nunito";
 	text-decoration: none;
 	transition: all 0.2s;
 }
 
 .btn-outline-sm:hover {
-	border: 0.125rem solid #333;
-	background-color: #333;
+	border: 0.125rem solid #fff;
+	background-color: #fff;
 	color: #fff;
 	text-decoration: none;
 }
@@ -307,7 +308,7 @@ unavailable button
 	position: absolute;
 	top: 0.87rem;
 	left: 1.375rem;
-	color: #777;
+	color: #ddd;
 	opacity: 1;
 	font: 400 0.875rem/1.375rem "Nunito";
 	cursor: text;
@@ -342,7 +343,7 @@ unavailable button
 	border: 1px solid #c4d8dc;
 	border-radius: 0.25rem;
 	background-color: #fff;
-	color: #777;
+	color: #ddd;
 	font: 400 0.875rem/1.875rem "Nunito";
 	transition: all 0.2s;
 	-webkit-appearance: none; /* removes inner shadow on form inputs on ios safari */
@@ -396,7 +397,7 @@ select::-ms-expand {
 	border: 1px solid #c4d8dc;
 	border-radius: 0.25rem;
 	background-color: #fff;
-	color: #777;
+	color: #ddd;
 	font: 400 0.875rem/1.75rem "Nunito";
 	transition: all 0.2s;
 }
@@ -640,7 +641,7 @@ input[type='checkbox'] {
 	right: 0;
 	bottom: 0;
 	left: 0;
-	background: #f7fafd;
+	background: #0C0414;
 }
 
 .spinner {
@@ -695,20 +696,25 @@ input[type='checkbox'] {
 /*     03. Navigation     */
 /**************************/
 .navbar-custom {
-	background-color: #f7fafd;
+	background-color: #0C0414;
 	box-shadow: 0 0.0625rem 0.375rem 0 rgba(0, 0, 0, 0.1);
 	font: 700 0.875rem/0.875rem "Nunito";
 	transition: all 0.2s;
 }
 
-.navbar-custom .navbar-brand.logo-image img {
+.navbar-custom .navbar-brand.marvil-logo-image img {
+    width: 9rem;
+	height: 3.5rem;
+}
+
+.navbar-custom .navbar-brand.centr-logo-image img {
     width: 9.75rem;
 	height: 3.25rem;
 }
 
 .navbar-custom .navbar-brand.logo-text {
 	font: 700 2rem/1rem "Nunito";
-	color: #333;
+	color: #fff;
 	text-decoration: none;
 }
 
@@ -719,7 +725,7 @@ input[type='checkbox'] {
 
 .navbar-custom .nav-item .nav-link {
 	padding: 0.625rem 0.75rem;
-	color: #333;
+	color: #fff;
 	text-decoration: none;
 	transition: all 0.2s ease;
 }
@@ -758,16 +764,16 @@ input[type='checkbox'] {
 	margin-top: 0;
 	border: none;
 	border-radius: 0.25rem;
-	background-color: #f7fafd;
+	background-color: #0C0414;
 }
 
 .navbar-custom .dropdown-item {
-	color: #333;
+	color: #fff;
 	text-decoration: none;
 }
 
 .navbar-custom .dropdown-item:hover {
-	background-color: #f7fafd;
+	background-color: #0C0414;
 }
 
 .navbar-custom .dropdown-item .item-text {
@@ -805,7 +811,7 @@ input[type='checkbox'] {
 .navbar-custom .navbar-toggler {
 	padding: 0;
 	border: none;
-	color: #333;
+	color: #fff;
 	font-size: 2rem;
 	font-family: Nunito;
 }
@@ -836,7 +842,7 @@ input[type='checkbox'] {
 	overflow: hidden;
 	padding-top: 8rem;
 	padding-bottom: 3rem;
-	background-color: #f7fafd;
+	background-color: #0C0414;
 	text-align: center;
 }
 
@@ -858,8 +864,8 @@ input[type='checkbox'] {
 	margin-left: 0.5rem;
 }
 
-.header .deco-white-circle-1,
-.header .deco-white-circle-2,
+.header .deco-purple-circle-1,
+.header .deco-purple-circle-2,
 .header .deco-blue-circle,
 .header .deco-yellow-circle,
 .header .deco-green-diamond {
@@ -873,7 +879,7 @@ input[type='checkbox'] {
 .cards-1 {
 	padding-top: 1rem;
 	padding-bottom: 2rem;
-	background-color: #f7fafd;
+	background-color: #0C0414;
 	text-align: center;
 	align-items: center;
 	align-content: center;
@@ -929,11 +935,11 @@ input[type='checkbox'] {
 .basic-1 {
 	padding-top: 3rem;
 	padding-bottom: 8rem;
-	background-color: #f7fafd;
+	background-color: #0C0414;
 }
 
 .basic-1 .image-container {
-	margin-bottom: 5rem;
+	margin-bottom: 1rem;
 }
 
 .basic-1 h2 {
@@ -945,7 +951,7 @@ input[type='checkbox'] {
 }
 
 .basic-1 .list-unstyled .fas {
-	color: #777;
+	color: #ddd;
 	font-size: 0.5rem;
 	line-height: 1.75rem;
 	font-family: Nunito;
@@ -1031,8 +1037,8 @@ input[type='checkbox'] {
 	height: auto;
 	margin-left: 0.375rem;
 	padding: 1.25rem 2.25rem 1.25rem 2.25rem;
-	border: 0.125rem solid #333;
-	color: #333;
+	border: 0.125rem solid #fff;
+	color: #fff;
 	opacity: 1;
 }
 
@@ -1059,7 +1065,7 @@ input[type='checkbox'] {
 .tabs {
 	padding-top: 8rem;
 	padding-bottom: 8rem;
-	background-color: #e8eff6;
+	background-color: #21172b;
 }
 
 .tabs .tabs-container {
@@ -1080,8 +1086,8 @@ input[type='checkbox'] {
 .tabs .nav-link {
 	padding: 0.5rem 1.5rem;
 	border-radius: 0;
-	background-color: #f7fafd;
-	color: #777;
+	background-color: #0C0414;
+	color: #ddd;
 	font-weight: 700;
 	font-size: 1.125rem;
 	text-decoration: none;
@@ -1135,7 +1141,7 @@ input[type='checkbox'] {
 .basic-2 {
 	padding-top: 7rem;
 	padding-bottom: 5rem;
-	background-color: #f7fafd;
+	background-color: #0C0414;
 }
 
 .basic-2 h2 {
@@ -1202,7 +1208,21 @@ input[type='checkbox'] {
 .slider {
 	padding-top: 8rem;
 	padding-bottom: 8rem;
-	background-color: #e8eff6;
+	background-color: #21172b;
+}
+
+.header .slider {
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	border-radius: 16px;
+	background-color: #21172b;
+}
+
+.header img {
+	display: block;
+	max-height:512px;
+	width: auto;
+	height: auto;
 }
 
 .slider .slider-container {
@@ -1219,6 +1239,7 @@ input[type='checkbox'] {
 .slider .swiper-button-next {
 	top: 50%;
 	width: 1.125rem;
+	margin-left: 16px;
 }
 
 .slider .swiper-button-prev:focus,
@@ -1229,13 +1250,13 @@ input[type='checkbox'] {
 
 .slider .swiper-button-prev {
 	left: -0.5rem;
-	background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2028%2044'%3E%3Cpath%20d%3D'M0%2C22L22%2C0l2.1%2C2.1L4.2%2C22l19.9%2C19.9L22%2C44L0%2C22L0%2C22L0%2C22z'%20fill%3D'%23777777'%2F%3E%3C%2Fsvg%3E");
+	background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2028%2044'%3E%3Cpath%20d%3D'M0%2C22L22%2C0l2.1%2C2.1L4.2%2C22l19.9%2C19.9L22%2C44L0%2C22L0%2C22L0%2C22z'%20fill%3D'%23dddddd'%2F%3E%3C%2Fsvg%3E");
 	background-size: 1.125rem 1.75rem;
 }
 
 .slider .swiper-button-next {
 	right: -0.5rem;
-	background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2028%2044'%3E%3Cpath%20d%3D'M27%2C22L27%2C22L5%2C44l-2.1-2.1L22.8%2C22L2.9%2C2.1L5%2C0L27%2C22L27%2C22z'%20fill%3D'%23777777'%2F%3E%3C%2Fsvg%3E");
+	background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2028%2044'%3E%3Cpath%20d%3D'M27%2C22L27%2C22L5%2C44l-2.1-2.1L22.8%2C22L2.9%2C2.1L5%2C0L27%2C22L27%2C22z'%20fill%3D'%23dddddd'%2F%3E%3C%2Fsvg%3E");
 	background-size: 1.125rem 1.75rem;
 }
 
@@ -1246,7 +1267,7 @@ input[type='checkbox'] {
 .cards-2 {
 	padding-top: 7rem;
 	padding-bottom: 3rem;
-	background-color: #f7fafd;
+	background-color: #0C0414;
 	text-align: center;
 }
 
@@ -1285,7 +1306,7 @@ input[type='checkbox'] {
 }
 
 .cards-2 .testimonial-author {
-	color: #333;
+	color: #fff;
 }
 
 .cards-2 .image-container {
@@ -1308,7 +1329,7 @@ input[type='checkbox'] {
 .counter {
 	padding-top: 8rem;
 	padding-bottom: 5rem;
-	background-color: #e8eff6;
+	background-color: #21172b;
 	text-align: center;
 }
 
@@ -1349,7 +1370,7 @@ input[type='checkbox'] {
 }
 
 .counter #counter .counter-value {
-	color: #333;
+	color: #fff;
 	font-weight: 700;
 	font-size: 3.5rem;
 	line-height: 4.25rem;
@@ -1371,7 +1392,7 @@ input[type='checkbox'] {
 	overflow: hidden;
 	padding-top: 8rem;
 	padding-bottom: 8rem;
-	background-color: #f7fafd;
+	background-color: #0C0414;
 	text-align: center;
 }
 
@@ -1389,8 +1410,8 @@ input[type='checkbox'] {
 	margin-left: 0.5rem;
 }
 
-.basic-3 .deco-white-circle-1,
-.basic-3 .deco-white-circle-2,
+.basic-3 .deco-purple-circle-1,
+.basic-3 .deco-purple-circle-2,
 .basic-3 .deco-blue-circle,
 .basic-3 .deco-yellow-circle,
 .basic-3 .deco-green-diamond {
@@ -1406,7 +1427,7 @@ input[type='checkbox'] {
 	padding-top: 4rem;
 	padding-bottom: 1rem;
 	border-top: 1px solid #c8d4d6;
-	background-color: #f7fafd;
+	background-color: #0C0414;
 }
 
 .footer p,
@@ -1480,7 +1501,7 @@ input[type='checkbox'] {
 /*************************/
 .copyright {
 	padding-bottom: 0.75rem;
-	background-color: #f7fafd;
+	background-color: #0C0414;
 	text-align: center;
 }
 
@@ -1506,7 +1527,7 @@ a.back-to-top {
 	width: 2.625rem;
 	height: 2.625rem;
 	border-radius: 1.875rem;
-	background: #333 url("../images/up-arrow.png") no-repeat center 47%;
+	background: #fff url("../images/up-arrow.png") no-repeat center 47%;
 	background-size: 1.125rem 1.125rem;
 	text-indent: -9999px;
 }
@@ -1522,14 +1543,14 @@ a:hover.back-to-top {
 .ex-header {
 	padding-top: 8rem;
 	padding-bottom: 5rem;
-	background-color: #f7fafd;
+	background-color: #0C0414;
 	text-align: center;
 }
 
 .ex-basic-1 {
 	padding-top: 2rem;
 	padding-bottom: 0.875rem;
-	background-color: #e8eff6;
+	background-color: #21172b;
 }
 
 .ex-basic-1 .breadcrumbs {
@@ -1546,7 +1567,7 @@ a:hover.back-to-top {
 .ex-basic-2 {
 	padding-top: 4.75rem;
 	padding-bottom: 4rem;
-	background-color: #f7fafd;
+	background-color: #0C0414;
 }
 
 .ex-basic-2 h3 {
@@ -1563,7 +1584,7 @@ a:hover.back-to-top {
 
 .ex-basic-2 .text-container.dark {
 	padding: 1.625rem 1.5rem 0.75rem 2rem;
-	background-color: #e8eff6;
+	background-color: #21172b;
 }
 
 .ex-basic-2 .image-container-large {
@@ -1579,7 +1600,7 @@ a:hover.back-to-top {
 }
 
 .ex-basic-2 .list-unstyled .fas {
-	color: #777;
+	color: #ddd;
 	font-size: 0.5rem;
 	line-height: 1.75rem;
 	font-family: Nunito;
@@ -1716,12 +1737,12 @@ a:hover.back-to-top {
 	
 	.navbar-custom.top-nav-collapse {
         padding: 0.5rem 1.5rem 0.5rem 2rem;
-		background-color: #f7fafd;
+		background-color: #0C0414;
 		box-shadow: 0 0.0625rem 0.375rem 0 rgba(0, 0, 0, 0.1);
 	}
 
 	.navbar-custom.top-nav-collapse .nav-item .nav-link {
-		color: #333;
+		color: #fff;
 	}
 
 	.navbar-custom.top-nav-collapse .nav-item .nav-link:hover,
@@ -1771,7 +1792,7 @@ a:hover.back-to-top {
 		font-family: Nunito;
 	}
 
-	.header .deco-white-circle-1 {
+	.header .deco-purple-circle-1 {
 		position: absolute;
 		top: 26rem;
 		left: -12rem;
@@ -1780,7 +1801,7 @@ a:hover.back-to-top {
 		height: 22rem;
 	}
 
-	.header .deco-white-circle-2 {
+	.header .deco-purple-circle-2 {
 		position: absolute;
 		top: 19rem;
 		right: -12rem;
@@ -1945,7 +1966,7 @@ a:hover.back-to-top {
 		margin-left: auto;
 	}
 
-	.basic-3 .deco-white-circle-1 {
+	.basic-3 .deco-purple-circle-1 {
 		position: absolute;
 		top: 23rem;
 		left: -12rem;
@@ -1954,7 +1975,7 @@ a:hover.back-to-top {
 		height: 20rem;
 	}
 
-	.basic-3 .deco-white-circle-2 {
+	.basic-3 .deco-purple-circle-2 {
 		position: absolute;
 		top: 7rem;
 		right: -12.5rem;
@@ -2024,20 +2045,20 @@ a:hover.back-to-top {
 	
 	/* Header */
 	.header .image-container {
-		width: 58.0625rem;
-		height: 36.125rem;
+		width: 60rem;
+		height: 30rem;
 		margin-right: auto;
 		margin-left: auto;
 	}
 
-	.header .deco-white-circle-1 {
+	.header .deco-purple-circle-1 {
 		top: 14rem;
 		left: -27rem;
 		width: 40rem;
 		height: 40rem;
 	}
 
-	.header .deco-white-circle-2 {
+	.header .deco-purple-circle-2 {
 		right: -15rem;
 		width: 25.5rem;
 		height: 25.5rem;
@@ -2183,14 +2204,14 @@ a:hover.back-to-top {
 		margin-left: auto;
 	}
 
-	.basic-3 .deco-white-circle-1 {
+	.basic-3 .deco-purple-circle-1 {
 		top: 20rem;
 		left: -18rem;
 		width: 30rem;
 		height: 30rem;
 	}
 
-	.basic-3 .deco-white-circle-2 {
+	.basic-3 .deco-purple-circle-2 {
 		top: 3rem;
 		right: -20rem;
 		width: 30rem;
@@ -2265,5 +2286,52 @@ a:hover.back-to-top {
 		margin-left: 1.75rem;
 	}
 	/* end of extra pages */
+
+/************************/
+/*     19. Elements     */
+/************************/
+
+.news-link {
+    border-bottom: 5px solid #21172b;
+    background: #21172b;
+    box-shadow: 0px 10px 65px 0px #21172b;
+    padding: 25px 10px;
+    border-radius: 16px;
+    display: table;
+    margin-bottom: 45px;
+}
+
+.news-link a {
+	color: #ddd;
+	text-decoration: none;
+}
+
+.news-link a:hover {
+	color: #ccc;
+	text-decoration: underline;
+}
+
+span.new-project {
+    position: absolute;
+    right: 35px;
+    background: linear-gradient(to right, #b91fec, #9F58F2);
+    font-size: 18px;
+    color: #fff;
+    padding: 7px 20px;
+    border-radius: 12px;
+    margin-top: -6px;
+    font-weight: 700;
+    box-shadow: 0px 10px 40px 0px rgba(48, 13, 248, 0.3);
+}
+
+img.poster {
+    float: left;
+    width: 30%;
+	border-radius: 16px;
+	margin: 20px 50px 20px 40px;
+}
+
+	
+
 }
 /* end of min-width 1200px */

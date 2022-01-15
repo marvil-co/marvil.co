@@ -138,6 +138,17 @@
         }
     });
 
+    /* One Image Slider - Swiper */
+    var oneimageSlider = new Swiper('.oneimage-slider', {
+        autoplay: {
+            delay: 3000,
+            disableOnInteraction: false
+		},
+        loop: false,
+        spaceBetween: 60,
+        slidesPerView: 1
+    });
+
 
     /* Image Lightbox - Magnific Popup */
 	$('.popup-link').magnificPopup({
