@@ -4,10 +4,6 @@
    Description: Custom JS file
 */
 
-if (window.location.href==="https://marvil.co/insta") {
-    window.location.href = "https://instagram.com/marvil.mp4"; 
-}
-
 (function($) {
     "use strict"; 
 	
