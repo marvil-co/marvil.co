@@ -38,6 +38,32 @@
           the JQuery $(document).ready wrapper to finish.
          */
         setTimeout(function() {
+
+            //redirect to Instagram if /insta
+            if (window.location.href== "https://marvil.co/insta")
+            {
+                window.location.href = 'https://www.instagram.com/marvil.mp4/';
+            }
+            //redirect to Instagram if /ig
+            else if (window.location.href== "https://marvil.co/ig")
+            {
+                window.location.href = 'https://www.instagram.com/marvil.mp4/';
+            }
+            //redirect to Instagram if /instagram
+            else if (window.location.href== "https://marvil.co/instagram")
+            {
+                window.location.href = 'https://www.instagram.com/marvil.mp4/';
+            }
+            //redirect to YouTube if /yt
+            else if (window.location.href== "https://marvil.co/yt")
+            {
+                window.location.href = 'https://www.youtube.com/channel/UCACecdP8JhDrhgG8I68rZcw?';
+            }
+            //redirect to YouTube if /yt
+            else if (window.location.href== "https://marvil.co/youtube")
+            {
+                window.location.href = 'https://www.youtube.com/channel/UCACecdP8JhDrhgG8I68rZcw?';
+            }
             highlighterAction();
         }, 200);
     }
