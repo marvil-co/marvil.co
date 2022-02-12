@@ -49,8 +49,8 @@ version 1.3
 version 1.4
 >fixed issue where screen would rotate in color picker.
 >added time conversion applet
->added tax calculator
->added time remaining calculator
+>added tax calculator applet
+>added time remaining calculator applet
 >translated app to Spanish (es-mx)
 >changed design of plus and minus buttons, to fit the theme better
 >revised the UI
