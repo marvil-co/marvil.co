@@ -1,0 +1,56 @@
+version 1.0:
+>first public beta
+
+////////////////////
+
+version 1.1:
+>fixed issue where layouts would not scale well with other devices
+>bug fix request emails now include phone details: manufacturer, model, android release, sdk, SOC manufacturer, SOC model
+
+////////////////////
+
+version 1.1.1
+>fixed issue where in conversion activities, inputs with decimals would replace "." with "0.", causing, for example, the numer "5.5" to turn into "50.5"
+
+////////////////////
+
+version 1.1.2
+>fixed issue where in conversion activities, inputs with decimals would replace "." with "0.", causing, for example, the numer "5.5" to turn into "50.5" (again)
+>fixed issue where password generator checkboxes wouldn't update when certain conbinations were used
+>fixed issue where password generator's "# of characters" buttons wouldn't vibrate when pressed if all checkboxes were unchecked 
+
+////////////////////
+
+version 1.1.3
+>fixed issue where negative values could not be entered in temperature conversions
+
+////////////////////
+
+version 1.2
+>added time remaining calculator
+>added function in color picker where you could use three sliders (for r, g, b) to choose a color
+
+////////////////////
+
+version 1.2.1
+>added option to disable haptic feedback
+>changed "about text"
+>changed order of "support the developer" applets: "share app" is now before donations.
+
+////////////////////
+
+version 1.3
+>added option to scan a QR code from gallery
+>added a switch unit button in all conversion activities
+>haptic feedback settings now update instantly
+
+////////////////////
+
+version 1.4
+>fixed issue where screen would rotate in color picker.
+>added time conversion applet
+>added tax calculator
+>added time remaining calculator
+>translated app to Spanish (es-mx)
+>changed design of plus and minus buttons, to fit the theme better
+>revised the UI
