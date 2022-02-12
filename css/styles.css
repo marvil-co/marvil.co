@@ -1515,6 +1515,17 @@ input[type='checkbox'] {
 }
 
 
+.changelog {
+	padding-bottom: 0.75rem;
+	background-color: #0C0414;
+	text-align: center;
+}
+
+.changelog p,
+.changelog a {
+	color: #999;
+}
+
 /**********************************/
 /*     16. Back To Top Button     */
 /**********************************/
