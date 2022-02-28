@@ -55,3 +55,12 @@ version 1.4
 >changed design of plus and minus buttons, to fit the theme better
 >revised the UI
 >centr will check for a newer version at startup, and notify the user if there is one
+
+////////////////////
+
+version 1.5
+>changed the "disable haptic feedback" option (in "off" state, haptic feedback would be enabled; in "on" state, haptic feedback would be disabled) to "enable haptic feedback" (in "on" state, haptic feedback is enabled, in "off" state, it's disabled).
+>redesigned icons
+>added "credits and thanks" section
+>changed the "share app" link, as previous link would lead to a 404
+>added ruler applet
