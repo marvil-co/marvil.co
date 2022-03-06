@@ -77,3 +77,8 @@ version 2.0
 >added data conversion applet
 >added data-rate conversion applet
 >88% reduction in file size!
+
+////////////////////
+
+version 2.0.1
+>fixed bug where in tip calculator and tax calculator applets, pressing the "more" button wouldn't un-grey out the "less" button if it had been previously greyed out
