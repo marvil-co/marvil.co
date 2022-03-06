@@ -58,9 +58,21 @@ version 1.4
 
 ////////////////////
 
-version 1.5
+version 2.0
 >changed the "disable haptic feedback" option (in "off" state, haptic feedback would be enabled; in "on" state, haptic feedback would be disabled) to "enable haptic feedback" (in "on" state, haptic feedback is enabled, in "off" state, it's disabled).
->redesigned icons
+>redesigned icons to be more cohesive
 >added "credits and thanks" section
 >changed the "share app" link, as previous link would lead to a 404
 >added ruler applet
+>tip calculator, tax calculator, and password generator applets' plus/minus buttons will grey out if you reach the minimum or maximum amount of tip (no tip), people (1 person), tax (no tax), and characters (5-128 characters)
+>optimization of password generator algorithm
+>optimization of all conversion applets (10x improvement in performance for conversions!)
+>added area conversion applet
+>added a glassmorphic background by default, as well as a "high contrast" mode in settings to disable it
+>fixed bug where you would not be able to see all units in the conversions applets, and you would not be able to scroll
+>addead feature where when clicking out of the "input" box and into a unit selection dropdown in a conversion applet, the keyboard will hide automatically
+>top corners are rounded on all activities
+>added new units to volume conversion
+>added speed conversion applet
+>added data conversion applet
+>added data-rate conversion applet
