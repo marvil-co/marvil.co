@@ -76,3 +76,4 @@ version 2.0
 >added speed conversion applet
 >added data conversion applet
 >added data-rate conversion applet
+>88% reduction in file size!
