@@ -1,0 +1,6 @@
+User-Agent: *
+Allow: /
+Disallow: /files/
+Disallow: /centr/changelog.txt
+
+Sitemap: https//marvil.co/

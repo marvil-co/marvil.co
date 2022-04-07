@@ -108,6 +108,10 @@ h6 {
     padding: 0 15px
 }
 
+.text-container {
+    display: block;
+}
+
 .flex {
     display: flex;
     justify-content: center;
@@ -188,6 +192,11 @@ a:hover {
     background-color: #0f0f11;
     color: #fff;
     text-decoration: none
+}
+
+form {
+    max-width: 80vw;
+    margin: auto
 }
 
 .form-group {
@@ -282,7 +291,7 @@ a:hover {
     width: 186px;
     height: 45px;
     margin-top: .5rem;
-    margin-bottom: 1.25rem
+    margin-bottom: 4rem
 }
 
 .navbar .logo-text {
@@ -543,6 +552,7 @@ footer .fab {
 }
 
 @media (min-width:992px) {
+    
     .container {
         max-width: 1140px
     }
@@ -691,4 +701,13 @@ footer .fab {
         height: 52px;
         line-height: 50px
     }
+}
+
+@media (max-width:992px) {
+    
+
+    .text-container {
+        margin-top: 6rem
+    }
+    
 }
