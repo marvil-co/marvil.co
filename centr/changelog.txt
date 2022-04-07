@@ -82,3 +82,9 @@ version 2.0
 
 version 2.0.1
 >fixed bug where in tip calculator and tax calculator applets, pressing the "more" button wouldn't un-grey out the "less" button if it had been previously greyed out
+
+////////////////////
+
+version 2.0.2
+>fixed bug where in the temperature conversion applet, entering only "-" or "-.", for negative numbers, would crash the app.
+>added optional telemetry (country, city, and device info) and mandatory telemetry (just the existence of the device)
