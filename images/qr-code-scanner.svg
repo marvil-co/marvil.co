@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="QR_Code_Scanner" data-name="QR Code Scanner" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080.5 2272">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: 0em;
+      }
+
+      .cls-2, .cls-3, .cls-4, .cls-5, .cls-6 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        font-size: 68px;
+      }
+
+      .cls-3, .cls-5, .cls-6, .cls-7 {
+        font-family: Nunito-SemiBold, Nunito;
+      }
+
+      .cls-8 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-4 {
+        font-family: Roboto-Regular, Roboto;
+        font-size: 42px;
+      }
+
+      .cls-4, .cls-9 {
+        opacity: .5;
+      }
+
+      .cls-10, .cls-7 {
+        fill: #9f58f2;
+      }
+
+      .cls-11 {
+        letter-spacing: 0em;
+      }
+
+      .cls-12 {
+        stroke: #fff;
+        stroke-miterlimit: 10;
+        stroke-width: 5px;
+      }
+
+      .cls-12, .cls-13 {
+        fill: none;
+      }
+
+      .cls-14 {
+        letter-spacing: 0em;
+      }
+
+      .cls-15 {
+        letter-spacing: 0em;
+      }
+
+      .cls-16 {
+        letter-spacing: -.06em;
+      }
+
+      .cls-5, .cls-7 {
+        font-size: 39px;
+      }
+
+      .cls-17 {
+        letter-spacing: -.04em;
+      }
+
+      .cls-6 {
+        font-size: 56px;
+      }
+
+      .cls-18 {
+        fill: #0c0414;
+      }
+
+      .cls-19 {
+        letter-spacing: 0em;
+      }
+
+      .cls-20 {
+        letter-spacing: 0em;
+      }
+
+      .cls-21 {
+        letter-spacing: 0em;
+      }
+
+      .cls-22 {
+        letter-spacing: -.11em;
+      }
+
+      .cls-23 {
+        letter-spacing: 0em;
+      }
+
+      .cls-24 {
+        fill: #22283d;
+      }
+    </style>
+  </defs>
+  <rect id="Background" class="cls-18" x=".5" width="1080" height="2272" rx="100" ry="100"/>
+  <rect id="BottomBar" class="cls-24" y="2002" width="1080" height="270" rx="100" ry="100"/>
+  <polyline id="GuideTL" class="cls-12" points="135.56 871.07 135.56 731.07 275.56 731.07"/>
+  <polyline id="GuideTR" class="cls-12" points="944.44 870.93 944.44 730.93 804.44 730.93"/>
+  <polyline id="GuideBL" class="cls-12" points="136.69 1401.08 136.69 1541.08 276.69 1541.08"/>
+  <polyline id="GuideBR" class="cls-12" points="945.58 1401.22 945.58 1541.22 805.58 1541.22"/>
+  <text id="Inst" class="cls-3" transform="translate(197.2 2119.72)"><tspan x="0" y="0">s</tspan><tspan class="cls-19" x="32.91" y="0">c</tspan><tspan x="64.4" y="0">an a QR </tspan><tspan class="cls-14" x="329.18" y="0">c</tspan><tspan x="360.26" y="0">ode or </tspan><tspan x="30.09" y="94">up</tspan><tspan class="cls-11" x="108.97" y="94">l</tspan><tspan class="cls-23" x="129.44" y="94">oad an image</tspan></text>
+  <path class="cls-13" d="M52,52h24v24h-24v-24Z"/>
+  <path id="FocusIcon" class="cls-2" d="M59.78,88.67h-5.78v11.56c0,3.18,2.6,5.78,5.78,5.78h11.56v-5.78h-11.56v-11.56Zm0-28.89h11.56v-5.78h-11.56c-3.18,0-5.78,2.6-5.78,5.78v11.56h5.78v-11.56Zm40.44-5.78h-11.56v5.78h11.56v11.56h5.78v-11.56c0-3.18-2.6-5.78-5.78-5.78Zm0,46.22h-11.56v5.78h11.56c3.18,0,5.78-2.6,5.78-5.78v-11.56h-5.78v11.56Zm-20.22-28.89c-4.8,0-8.67,3.87-8.67,8.67s3.87,8.67,8.67,8.67,8.67-3.87,8.67-8.67-3.87-8.67-8.67-8.67Z"/>
+  <path id="NoFlashIcon" class="cls-2" d="M1015.56,74.74h-10l6.32,6.32,3.69-6.32Zm0-22.17h-27.71v4.46l16.99,16.99,10.73-21.45Zm-37.66,2.38l-3.91,3.91,13.86,13.86v10.34h8.31v24.94l9.92-17.04,11.5,11.5,3.91-3.91-43.59-43.59Z"/>
+  <path id="ImgIcon" class="cls-10" d="M962.31,2175.67v-79.29c0-6.23-5.1-11.33-11.33-11.33h-79.29c-6.23,0-11.33,5.1-11.33,11.33v79.29c0,6.23,5.1,11.33,11.33,11.33h79.29c6.23,0,11.33-5.1,11.33-11.33Zm-68.53-28.43l11.89,14.33,17.56-22.6c1.13-1.47,3.4-1.47,4.53,.06l19.88,26.5c1.42,1.87,.06,4.53-2.27,4.53h-67.9c-2.38,0-3.68-2.72-2.21-4.59l14.1-18.12c1.08-1.47,3.23-1.53,4.42-.11Z"/>
+  <rect id="DarkFilter" class="cls-9" x="0" y="0" width="1080" height="2272" rx="100" ry="100"/>
+  <rect id="Dialog" class="cls-24" x="205" y="906" width="670" height="460"/>
+  <text id="DialogTitle" class="cls-6" transform="translate(272.66 1017.83)"><tspan class="cls-16" x="0" y="0">W</tspan><tspan x="58.58" y="0">ebsi</tspan><tspan class="cls-1" x="162.45" y="0">t</tspan><tspan x="182.61" y="0">e</tspan></text>
+  <text id="DialogMessage" class="cls-4" transform="translate(270.99 1103.49)"><tspan x="0" y="0">https:</tspan><tspan class="cls-22" x="105.96" y="0">/</tspan><tspan x="118.68" y="0">/ma</tspan><tspan class="cls-20" x="195.65" y="0">r</tspan><tspan x="210.23" y="0">vil.co/centr</tspan></text>
+  <text class="cls-5" transform="translate(282.34 1294.11)"><tspan x="0" y="0">C</tspan><tspan class="cls-17" x="26.36" y="0">L</tspan><tspan x="46.45" y="0">OSE</tspan></text>
+  <text class="cls-7" transform="translate(690.48 1294.22)"><tspan x="0" y="0">OPEN</tspan></text>
+  <text class="cls-7" transform="translate(495.96 1294.22)"><tspan class="cls-8" x="0" y="0">C</tspan><tspan x="25.51" y="0">O</tspan><tspan class="cls-21" x="55.73" y="0">P</tspan><tspan class="cls-15" x="80.61" y="0">Y</tspan></text>
+</svg>

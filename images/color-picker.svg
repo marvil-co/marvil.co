@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Color_Picker" data-name="Color Picker" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 2272">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: 0em;
+      }
+
+      .cls-2 {
+        letter-spacing: .02em;
+      }
+
+      .cls-3 {
+        letter-spacing: 0em;
+      }
+
+      .cls-4 {
+        letter-spacing: 0em;
+      }
+
+      .cls-5 {
+        fill: #9f58f2;
+      }
+
+      .cls-6 {
+        font-size: 152px;
+      }
+
+      .cls-6, .cls-7, .cls-8 {
+        fill: #fff;
+      }
+
+      .cls-6, .cls-8 {
+        font-family: Nunito-SemiBold, Nunito;
+      }
+
+      .cls-9 {
+        letter-spacing: 0em;
+      }
+
+      .cls-10 {
+        letter-spacing: 0em;
+      }
+
+      .cls-11 {
+        letter-spacing: 0em;
+      }
+
+      .cls-12 {
+        fill: #2b324d;
+      }
+
+      .cls-13 {
+        letter-spacing: 0em;
+      }
+
+      .cls-14 {
+        letter-spacing: 0em;
+      }
+
+      .cls-7 {
+        font-family: Nunito-Bold, Nunito;
+        font-size: 71px;
+      }
+
+      .cls-15 {
+        letter-spacing: .03em;
+      }
+
+      .cls-16 {
+        letter-spacing: 0em;
+      }
+
+      .cls-8 {
+        font-size: 67px;
+        opacity: .5;
+      }
+
+      .cls-17 {
+        fill: #0c0414;
+      }
+
+      .cls-18 {
+        letter-spacing: 0em;
+      }
+
+      .cls-19 {
+        letter-spacing: 0em;
+      }
+
+      .cls-20 {
+        letter-spacing: 0em;
+      }
+
+      .cls-21 {
+        letter-spacing: 0em;
+      }
+
+      .cls-22 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-23 {
+        fill: #22283d;
+      }
+    </style>
+  </defs>
+  <rect id="Background" class="cls-17" width="1080" height="2272" rx="100" ry="100"/>
+  <rect id="Result" class="cls-5" x="269.5" y="806" width="540" height="540" rx="50" ry="50"/>
+  <text id="Title" class="cls-6" transform="translate(141.19 302.74)"><tspan class="cls-14" x="0" y="0">c</tspan><tspan class="cls-19" x="69.46" y="0">o</tspan><tspan class="cls-3" x="155.34" y="0">l</tspan><tspan x="201.1" y="0">or pic</tspan><tspan class="cls-22" x="581.54" y="0">k</tspan><tspan x="658.3" y="0">er</tspan></text>
+  <text id="Inst" class="cls-8" transform="translate(167.01 416.83)"><tspan x="0" y="0">tap </tspan><tspan class="cls-16" x="117.72" y="0">t</tspan><tspan x="142.77" y="0">he </tspan><tspan class="cls-13" x="235.03" y="0">c</tspan><tspan class="cls-21" x="265.65" y="0">o</tspan><tspan class="cls-9" x="303.5" y="0">l</tspan><tspan x="323.67" y="0">or </tspan><tspan class="cls-10" x="404.2" y="0">t</tspan><tspan x="428.32" y="0">o edi</tspan><tspan class="cls-2" x="575.72" y="0">t</tspan><tspan x="601.24" y="0">, and</tspan><tspan class="cls-9" x="-6.64" y="94">l</tspan><tspan class="cls-21" x="13.53" y="94">ong-p</tspan><tspan class="cls-20" x="198.11" y="94">r</tspan><tspan class="cls-21" x="222.64" y="94">ess it </tspan><tspan class="cls-1" x="399.58" y="94">t</tspan><tspan x="423.7" y="94">o s</tspan><tspan class="cls-10" x="511.67" y="94">a</tspan><tspan class="cls-18" x="547.31" y="94">v</tspan><tspan class="cls-11" x="581.55" y="94">e it </tspan><tspan class="cls-1" x="693.64" y="94">t</tspan><tspan x="717.76" y="94">o</tspan><tspan class="cls-4" x="190.91" y="188">y</tspan><tspan x="225.15" y="188">our gal</tspan><tspan class="cls-10" x="440.08" y="188">l</tspan><tspan x="460.25" y="188">e</tspan><tspan class="cls-15" x="496.23" y="188">r</tspan><tspan x="523.23" y="188">y</tspan></text>
+  <g id="HEXInputBox">
+    <rect class="cls-23" x="94" y="1746.5" width="895" height="163" rx="57.5" ry="57.5"/>
+    <path class="cls-5" d="M931.5,1749c30.33,0,55,24.67,55,55v48c0,30.33-24.67,55-55,55H151.5c-30.33,0-55-24.67-55-55v-48c0-30.33,24.67-55,55-55H931.5m0-5H151.5c-33.14,0-60,26.86-60,60v48c0,33.14,26.86,60,60,60H931.5c33.14,0,60-26.86,60-60v-48c0-33.14-26.86-60-60-60h0Z"/>
+  </g>
+  <text id="HEXInputText" class="cls-7" transform="translate(159.5 1855.74)"><tspan x="0" y="0">9F58F2</tspan></text>
+  <g id="RGBInputBox">
+    <path class="cls-12" d="M929.5,1532c30.33,0,55,24.67,55,55v48c0,30.33-24.67,55-55,55H149.5c-30.33,0-55-24.67-55-55v-48c0-30.33,24.67-55,55-55H929.5m0-5H149.5c-33.14,0-60,26.86-60,60v48c0,33.14,26.86,60,60,60H929.5c33.14,0,60-26.86,60-60v-48c0-33.14-26.86-60-60-60h0Z"/>
+  </g>
+  <text id="RGBInputText" class="cls-7" transform="translate(157.5 1638.74)"><tspan x="0" y="0">159, 88, 242</tspan></text>
+</svg>

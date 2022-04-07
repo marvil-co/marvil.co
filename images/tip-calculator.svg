@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Tip_Calculator" data-name="Tip Calculator" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 2272">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: 0em;
+      }
+
+      .cls-2 {
+        fill: #9f58f2;
+      }
+
+      .cls-3 {
+        font-size: 152px;
+      }
+
+      .cls-3, .cls-4, .cls-5, .cls-6 {
+        fill: #fff;
+      }
+
+      .cls-3, .cls-4, .cls-6 {
+        font-family: Nunito-SemiBold, Nunito;
+      }
+
+      .cls-7 {
+        fill: #2b324d;
+      }
+
+      .cls-4 {
+        font-size: 70px;
+      }
+
+      .cls-4, .cls-6 {
+        opacity: .5;
+      }
+
+      .cls-5 {
+        font-family: Nunito-Bold, Nunito;
+        font-size: 71px;
+      }
+
+      .cls-8 {
+        letter-spacing: 0em;
+      }
+
+      .cls-6 {
+        font-size: 67px;
+      }
+
+      .cls-9 {
+        fill: #0c0414;
+      }
+
+      .cls-10 {
+        letter-spacing: 0em;
+      }
+
+      .cls-11 {
+        letter-spacing: 0em;
+      }
+
+      .cls-12 {
+        letter-spacing: 0em;
+      }
+
+      .cls-13 {
+        letter-spacing: 0em;
+      }
+
+      .cls-14 {
+        letter-spacing: 0em;
+      }
+
+      .cls-15 {
+        fill: #22283d;
+      }
+    </style>
+  </defs>
+  <rect id="Background" class="cls-9" width="1080" height="2272" rx="100" ry="100"/>
+  <text id="Title" class="cls-3" transform="translate(87.31 302.74)"><tspan class="cls-8" x="0" y="0">t</tspan><tspan x="56.84" y="0">ip </tspan><tspan class="cls-12" x="223.74" y="0">c</tspan><tspan x="294.11" y="0">a</tspan><tspan class="cls-1" x="375.73" y="0">l</tspan><tspan x="421.49" y="0">cula</tspan><tspan class="cls-13" x="707.09" y="0">t</tspan><tspan x="761.81" y="0">or</tspan></text>
+  <text id="Result2" class="cls-6" transform="translate(351.3 971.28)"><tspan x="0" y="0">$12.00 each</tspan></text>
+  <g id="TipPBox">
+    <rect class="cls-7" x="89.5" y="2014" width="520" height="168" rx="60" ry="60"/>
+  </g>
+  <text id="TipPText" class="cls-4" transform="translate(157.89 2125.74)"><tspan x="0" y="0">20.0% </tspan><tspan class="cls-11" x="226.66" y="0">t</tspan><tspan x="252.84" y="0">ip</tspan></text>
+  <g id="MoreTipPBox">
+    <rect class="cls-15" x="825.5" y="2014" width="168" height="168" rx="60" ry="60"/>
+  </g>
+  <g id="LessTipPBox">
+    <rect class="cls-15" x="640.5" y="2014" width="168" height="168" rx="60" ry="60"/>
+  </g>
+  <path id="MoreTipPIcon" class="cls-2" d="M952.36,2105.14h-35.71v35.71c0,3.93-3.21,7.14-7.14,7.14s-7.14-3.21-7.14-7.14v-35.71h-35.71c-3.93,0-7.14-3.21-7.14-7.14s3.21-7.14,7.14-7.14h35.71v-35.71c0-3.93,3.21-7.14,7.14-7.14s7.14,3.21,7.14,7.14v35.71h35.71c3.93,0,7.14,3.21,7.14,7.14s-3.21,7.14-7.14,7.14Z"/>
+  <path id="LessTipPIcon" class="cls-2" d="M767.36,2105.14h-85.71c-3.93,0-7.14-3.21-7.14-7.14s3.21-7.14,7.14-7.14h85.71c3.93,0,7.14,3.21,7.14,7.14s-3.21,7.14-7.14,7.14Z"/>
+  <g id="PeopleBox">
+    <rect class="cls-7" x="90" y="1808.93" width="520" height="168" rx="60" ry="60"/>
+  </g>
+  <text id="PeopleText" class="cls-4" transform="translate(158.49 1920.66)"><tspan x="0" y="0">5 peop</tspan><tspan class="cls-10" x="220.35" y="0">l</tspan><tspan x="241.43" y="0">e</tspan></text>
+  <g id="MorePeopleBox">
+    <rect class="cls-15" x="826" y="1808.93" width="168" height="168" rx="60" ry="60"/>
+  </g>
+  <g id="LessPeopleBox">
+    <rect class="cls-15" x="641" y="1808.93" width="168" height="168" rx="60" ry="60"/>
+  </g>
+  <path id="MorePeopleIcon" class="cls-2" d="M952.86,1900.07h-35.71v35.71c0,3.93-3.21,7.14-7.14,7.14s-7.14-3.21-7.14-7.14v-35.71h-35.71c-3.93,0-7.14-3.21-7.14-7.14s3.21-7.14,7.14-7.14h35.71v-35.71c0-3.93,3.21-7.14,7.14-7.14s7.14,3.21,7.14,7.14v35.71h35.71c3.93,0,7.14,3.21,7.14,7.14s-3.21,7.14-7.14,7.14Z"/>
+  <path id="LessPeopleIcon" class="cls-2" d="M767.86,1900.07h-85.71c-3.93,0-7.14-3.21-7.14-7.14s3.21-7.14,7.14-7.14h85.71c3.93,0,7.14,3.21,7.14,7.14s-3.21,7.14-7.14,7.14Z"/>
+  <text id="Result" class="cls-3" transform="translate(111.96 853.84)"><tspan x="0" y="0">$60.00 </tspan><tspan class="cls-14" x="532.14" y="0">to</tspan><tspan x="671.98" y="0">tal</tspan></text>
+  <g id="InputBox">
+    <rect class="cls-15" x="93" y="1611.5" width="895" height="163" rx="57.5" ry="57.5"/>
+    <path class="cls-2" d="M930.5,1614c30.33,0,55,24.67,55,55v48c0,30.33-24.67,55-55,55H150.5c-30.33,0-55-24.67-55-55v-48c0-30.33,24.67-55,55-55H930.5m0-5H150.5c-33.14,0-60,26.86-60,60v48c0,33.14,26.86,60,60,60H930.5c33.14,0,60-26.86,60-60v-48c0-33.14-26.86-60-60-60h0Z"/>
+  </g>
+  <text id="InputText" class="cls-5" transform="translate(158.5 1720.74)"><tspan x="0" y="0">50</tspan></text>
+</svg>

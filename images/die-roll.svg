@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Die_Roll" data-name="Die Roll" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1080 2272">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: 0em;
+      }
+
+      .cls-2 {
+        letter-spacing: 0em;
+      }
+
+      .cls-3 {
+        letter-spacing: 0em;
+      }
+
+      .cls-4 {
+        fill: #9f58f2;
+      }
+
+      .cls-5 {
+        font-size: 152px;
+      }
+
+      .cls-5, .cls-6, .cls-7 {
+        fill: #fff;
+        font-family: Nunito-SemiBold, Nunito;
+      }
+
+      .cls-8 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-9 {
+        letter-spacing: 0em;
+      }
+
+      .cls-10 {
+        letter-spacing: 0em;
+      }
+
+      .cls-11 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-12 {
+        letter-spacing: 0em;
+      }
+
+      .cls-13 {
+        letter-spacing: 0em;
+      }
+
+      .cls-14 {
+        letter-spacing: 0em;
+      }
+
+      .cls-6 {
+        font-size: 67px;
+      }
+
+      .cls-6, .cls-7 {
+        opacity: .5;
+      }
+
+      .cls-15 {
+        fill: #0c0414;
+      }
+
+      .cls-16 {
+        letter-spacing: 0em;
+      }
+
+      .cls-17 {
+        letter-spacing: 0em;
+      }
+
+      .cls-18 {
+        letter-spacing: 0em;
+      }
+
+      .cls-19 {
+        letter-spacing: 0em;
+      }
+
+      .cls-7 {
+        font-size: 68px;
+      }
+
+      .cls-20 {
+        letter-spacing: 0em;
+      }
+
+      .cls-21 {
+        letter-spacing: 0em;
+      }
+
+      .cls-22 {
+        letter-spacing: 0em;
+      }
+
+      .cls-23 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-24 {
+        letter-spacing: .03em;
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="649.6" y1="1608.5" x2="429.4" y2="1003.5" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#3767e5"/>
+      <stop offset=".65" stop-color="#9f58f2"/>
+    </linearGradient>
+  </defs>
+  <rect id="Background" class="cls-15" width="1080" height="2272" rx="100" ry="100"/>
+  <text id="Title" class="cls-5" transform="translate(297.98 299.74)"><tspan x="0" y="0">die </tspan><tspan class="cls-10" x="248.51" y="0">r</tspan><tspan x="304.15" y="0">oll</tspan></text>
+  <text id="Inst" class="cls-6" transform="translate(116.33 416.83)"><tspan x="0" y="0">tap a</tspan><tspan class="cls-9" x="153.69" y="0">n</tspan><tspan class="cls-24" x="191.95" y="0">y</tspan><tspan x="228.67" y="0">whe</tspan><tspan class="cls-19" x="359.92" y="0">r</tspan><tspan x="384.44" y="0">e on </tspan><tspan class="cls-3" x="532.24" y="0">t</tspan><tspan class="cls-2" x="557.29" y="0">he sc</tspan><tspan class="cls-16" x="713.27" y="0">r</tspan><tspan x="737.79" y="0">een</tspan><tspan class="cls-11" x="219.99" y="94">f</tspan><tspan x="242.3" y="94">or a n</tspan><tspan class="cls-19" x="415.09" y="94">e</tspan><tspan class="cls-21" x="450.6" y="94">w </tspan><tspan class="cls-16" x="524.97" y="94">r</tspan><tspan class="cls-12" x="549.49" y="94">oll</tspan></text>
+  <text id="AllowRepeatText" class="cls-7" transform="translate(156.63 1698.39)"><tspan x="0" y="0">al</tspan><tspan class="cls-13" x="57.32" y="0">l</tspan><tspan class="cls-20" x="77.79" y="0">o</tspan><tspan class="cls-22" x="115.6" y="0">w </tspan><tspan class="cls-17" x="191.08" y="0">r</tspan><tspan x="215.97" y="0">epea</tspan><tspan class="cls-14" x="365.7" y="0">t</tspan><tspan class="cls-18" x="390.18" y="0">ed </tspan><tspan class="cls-1" x="484.83" y="0">r</tspan><tspan x="509.72" y="0">esu</tspan><tspan class="cls-23" x="617.84" y="0">l</tspan><tspan x="637.9" y="0">ts</tspan></text>
+  <path id="AllowRepeatCB" class="cls-4" d="M916.81,1646h-38.89c-3.06,0-5.56,2.5-5.56,5.56v38.89c0,3.06,2.5,5.56,5.56,5.56h38.89c3.06,0,5.56-2.5,5.56-5.56v-38.89c0-3.06-2.5-5.56-5.56-5.56Zm-23.03,36.92c-1.08,1.08-2.83,1.08-3.92,0l-9.97-9.97c-1.08-1.08-1.08-2.83,0-3.92,1.08-1.08,2.83-1.08,3.92,0l8,8,19.11-19.11c1.08-1.08,2.83-1.08,3.92,0s1.08,2.83,0,3.92l-21.06,21.08Z"/>
+  <path id="Die" class="cls-8" d="M753.9,1045H325.1c-29.6,0-53.6,23.37-53.6,52.2v417.6c0,28.83,24,52.2,53.6,52.2h428.8c29.6,0,53.6-23.37,53.6-52.2v-417.6c0-28.83-24-52.2-53.6-52.2Zm32.16,453.1c0,26.52-22.08,48.02-49.31,48.02H342.25c-27.23,0-49.31-21.5-49.31-48.02v-384.19c0-26.52,22.08-48.02,49.31-48.02h394.5c27.23,0,49.31,21.5,49.31,48.02v384.19Zm-340.36-322.6c0,21.62-18,39.15-40.2,39.15s-40.2-17.53-40.2-39.15,18-39.15,40.2-39.15,40.2,17.53,40.2,39.15Zm268,261c0,21.62-18,39.15-40.2,39.15s-40.2-17.53-40.2-39.15,18-39.15,40.2-39.15,40.2,17.53,40.2,39.15Zm-268,0c0,21.62-18,39.15-40.2,39.15s-40.2-17.53-40.2-39.15,18-39.15,40.2-39.15,40.2,17.53,40.2,39.15Zm268-261c0,21.62-18,39.15-40.2,39.15s-40.2-17.53-40.2-39.15,18-39.15,40.2-39.15,40.2,17.53,40.2,39.15Zm-348.4,130.5c0-21.62,18-39.15,40.2-39.15s40.2,17.53,40.2,39.15-18,39.15-40.2,39.15-40.2-17.53-40.2-39.15m268,0c0-21.62,18-39.15,40.2-39.15s40.2,17.53,40.2,39.15-18,39.15-40.2,39.15-40.2-17.53-40.2-39.15"/>
+</svg>

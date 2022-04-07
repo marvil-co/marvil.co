@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Time_Remaining_Calculator" data-name="Time Remaining Calculator" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1080 2272">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: 0em;
+      }
+
+      .cls-2, .cls-3 {
+        fill: #9f58f2;
+      }
+
+      .cls-4 {
+        font-size: 152px;
+      }
+
+      .cls-4, .cls-5, .cls-6, .cls-7 {
+        fill: #fff;
+      }
+
+      .cls-4, .cls-6, .cls-7 {
+        font-family: Nunito-SemiBold, Nunito;
+      }
+
+      .cls-8 {
+        letter-spacing: 0em;
+      }
+
+      .cls-9 {
+        letter-spacing: 0em;
+      }
+
+      .cls-10 {
+        letter-spacing: 0em;
+      }
+
+      .cls-11 {
+        letter-spacing: 0em;
+      }
+
+      .cls-12 {
+        letter-spacing: 0em;
+      }
+
+      .cls-5 {
+        font-family: Nunito-Bold, Nunito;
+        font-size: 71px;
+      }
+
+      .cls-3 {
+        filter: url(#drop-shadow-1);
+      }
+
+      .cls-13 {
+        letter-spacing: 0em;
+      }
+
+      .cls-14 {
+        fill: #0c0414;
+      }
+
+      .cls-15 {
+        letter-spacing: 0em;
+      }
+
+      .cls-16 {
+        letter-spacing: 0em;
+      }
+
+      .cls-6 {
+        font-size: 133px;
+      }
+
+      .cls-17 {
+        letter-spacing: 0em;
+      }
+
+      .cls-7 {
+        font-size: 68px;
+        opacity: .5;
+      }
+
+      .cls-18 {
+        fill: #22283d;
+      }
+
+      .cls-19 {
+        letter-spacing: 0em;
+      }
+    </style>
+    <filter id="drop-shadow-1" filterUnits="userSpaceOnUse">
+      <feOffset dx="4" dy="4"/>
+      <feGaussianBlur result="blur" stdDeviation="5"/>
+      <feFlood flood-color="#000" flood-opacity="1"/>
+      <feComposite in2="blur" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <rect id="Background" class="cls-14" width="1080" height="2272" rx="100" ry="100"/>
+  <text id="Title" class="cls-6" transform="translate(406.17 281.74)"><tspan class="cls-19" x="0" y="0">t</tspan><tspan x="49.74" y="0">ime</tspan><tspan class="cls-17" x="-167.45" y="118">r</tspan><tspan x="-118.77" y="118">emaining</tspan><tspan class="cls-11" x="-163.46" y="236">c</tspan><tspan x="-101.88" y="236">a</tspan><tspan class="cls-1" x="-30.46" y="236">l</tspan><tspan x="9.58" y="236">cula</tspan><tspan class="cls-15" x="259.48" y="236">t</tspan><tspan class="cls-16" x="307.36" y="236">or</tspan></text>
+  <text id="CompP" class="cls-7" transform="translate(326.15 1782.57)"><tspan class="cls-12" x="0" y="0">c</tspan><tspan x="31.08" y="0">omp</tspan><tspan class="cls-10" x="168.57" y="0">l</tspan><tspan class="cls-13" x="189.04" y="0">e</tspan><tspan class="cls-9" x="225.49" y="0">t</tspan><tspan x="250.92" y="0">ion %</tspan></text>
+  <g id="InputBox">
+    <rect class="cls-18" x="93" y="1499.5" width="895" height="163" rx="57.5" ry="57.5"/>
+    <path class="cls-2" d="M930.5,1502c30.33,0,55,24.67,55,55v48c0,30.33-24.67,55-55,55H150.5c-30.33,0-55-24.67-55-55v-48c0-30.33,24.67-55,55-55H930.5m0-5H150.5c-33.14,0-60,26.86-60,60v48c0,33.14,26.86,60,60,60H930.5c33.14,0,60-26.86,60-60v-48c0-33.14-26.86-60-60-60h0Z"/>
+  </g>
+  <text id="InputText" class="cls-5" transform="translate(156.85 1609.24)"><tspan x="0" y="0">14:27</tspan></text>
+  <text id="Result" class="cls-4" transform="translate(384.95 983.84)"><tspan x="0" y="0">1:58</tspan><tspan class="cls-8" x="-190.07" y="205">r</tspan><tspan x="-134.44" y="205">emaining</tspan></text>
+  <path id="UnusedBar" class="cls-2" d="M134.5,1839H843.5v10H134.5c-2.76,0-5-2.24-5-5h0c0-2.76,2.24-5,5-5Z"/>
+  <path id="UsedBar" class="cls-18" d="M843.5,1839h101c2.76,0,5,2.24,5,5h0c0,2.76-2.24,5-5,5h-101v-10h0Z"/>
+  <circle id="Thumb" class="cls-3" cx="843.5" cy="1844" r="28"/>
+</svg>
