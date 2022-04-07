@@ -50,12 +50,11 @@ function contactFormSubmit() {
     isValidEmail = document.getElementById('email-form').checkValidity();
     isValidContent = document.getElementById('mail-content').checkValidity();
 
-    nameFormValue = (document.getElementById('name-form').value).replace('&', 'and');
-    emailFormValue = (document.getElementById('email-form').value).replace('&', 'and');
-    mailContentValue = (document.getElementById('mail-content').value).replace('&', 'and');
+    nameFormValue = (document.getElementById('name-form').value);
+    emailFormValue = (document.getElementById('email-form').value);
+    mailContentValue = (document.getElementById('mail-content').value);
 
-    if (isValidContent && isValidMail && isValidEmail) {
-        alert("sent!");
-        fetch('https://maker.ifttt.com/trigger/contactform/with/key/bh-7CUDtGTTvE41YHEXoHY?value1=' + nameFormValue + '&value2=' + emailFormValue + '&value3=' + mailContentValue);
+    if (isValidMail && isValidEmail && isValidContent) {
+        window.open('http://maker.ifttt.com/trigger/contactform/with/key/bh-7CUDtGTTvE41YHEXoHY?value1=' + nameFormValue + '&value2=' + emailFormValue + '&value3=' + mailContentValue)
     }
 }
