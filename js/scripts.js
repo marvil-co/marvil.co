@@ -41,7 +41,7 @@ function check(element) {
     } else if (remaining == maxLength) {
         remainingChars.style.color = "transparent";
     } else if (!remaining <= 64 && !remaining == 0) {
-        remainingChars.style.color = "#c923fe";
+        remainingChars.style.color = "#b524ea";
     }
 }
 

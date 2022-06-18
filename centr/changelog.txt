@@ -59,7 +59,7 @@ version 1.4
 ////////////////////
 
 version 2.0
->changed the "disable haptic feedback" option (in "off" state, haptic feedback would be enabled; in "on" state, haptic feedback would be disabled) to "enable haptic feedback" (in "on" state, haptic feedback is enabled, in "off" state, it's disabled).
+>changed the "disable haptic feedback" option (in "off" state, haptic feedback would be enabled; in "on" state, haptic feedback would be disabled) to "enable haptic feedback" (in "on" state, haptic feedback is enabled, in "off" state, it's disabled)
 >redesigned icons to be more cohesive
 >added "credits and thanks" section
 >changed the "share app" link, as previous link would lead to a 404
@@ -86,5 +86,19 @@ version 2.0.1
 ////////////////////
 
 version 2.0.2
->fixed bug where in the temperature conversion applet, entering only "-" or "-.", for negative numbers, would crash the app.
+>fixed bug where in the temperature conversion applet, entering only "-" or "-.", for negative numbers, would crash the app
 >added optional telemetry (country, city, and device info) and mandatory telemetry (just the existence of the device)
+
+version 3.0
+>added themes
+>dropdown menus in conversion applets have a new design, better suited for screenreaders
+>added content description to all images for accessibility
+>tip and tax percentage now remember your preferences
+>the die roll and coin flip applets now have visual feedback instead of just haptic
+>added the passphrase generator applet
+>complete redesign of the QR code scanner applet
+>QR code scanner applet now supports the front-facing camera. If the flash is turned on with the front-facing camera, the screen will have a white background
+>design update for the time remaining calculator applet
+>now you can set your preference for decimal precision in all conversion applets
+>permission requests are now handled better
+>the strength of haptic feedback depends on the action, such as tapping vs pressing-and-holding
