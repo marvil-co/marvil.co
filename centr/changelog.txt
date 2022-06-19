@@ -75,7 +75,6 @@ version 2.0
 >added new units to volume conversion
 >added speed conversion applet
 >added data conversion applet
->added data-rate conversion applet
 >88% reduction in file size!
 
 ////////////////////
@@ -102,3 +101,7 @@ version 3.0
 >now you can set your preference for decimal precision in all conversion applets
 >permission requests are now handled better
 >the strength of haptic feedback depends on the action, such as tapping vs pressing-and-holding
+>removed the telemetry :)
+>fixed bug where centr would crash if there was no internet connection (to search for a new version)
+>added energy conversion applet
+>added pressure conversion applet
