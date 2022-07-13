@@ -1,5 +1,5 @@
 version 1.0:
->first public beta
+>first public release
 
 ////////////////////
 
@@ -10,13 +10,13 @@ version 1.1:
 ////////////////////
 
 version 1.1.1
->fixed issue where in conversion activities, inputs with decimals would replace "." with "0.", causing, for example, the numer "5.5" to turn into "50.5"
+>fixed issue where in conversion activities, inputs with decimals would replace "." with "0.", causing, for example, the number "5.5" to turn into "50.5"
 
 ////////////////////
 
 version 1.1.2
 >fixed issue where in conversion activities, inputs with decimals would replace "." with "0.", causing, for example, the numer "5.5" to turn into "50.5" (again)
->fixed issue where password generator checkboxes wouldn't update when certain conbinations were used
+>fixed issue where password generator checkboxes wouldn't update when certain combinations were used
 >fixed issue where password generator's "# of characters" buttons wouldn't vibrate when pressed if all checkboxes were unchecked 
 
 ////////////////////
@@ -70,7 +70,7 @@ version 2.0
 >added area conversion applet
 >added a glassmorphic background by default, as well as a "high contrast" mode in settings to disable it
 >fixed bug where you would not be able to see all units in the conversions applets, and you would not be able to scroll
->addead feature where when clicking out of the "input" box and into a unit selection dropdown in a conversion applet, the keyboard will hide automatically
+>added feature where when clicking out of the "input" box and into a unit selection dropdown in a conversion applet, the keyboard will hide automatically
 >top corners are rounded on all activities
 >added new units to volume conversion
 >added speed conversion applet
@@ -105,3 +105,10 @@ version 3.0
 >fixed bug where centr would crash if there was no internet connection (to search for a new version)
 >added energy conversion applet
 >added pressure conversion applet
+
+////////////////////
+
+version 3.0.1
+>fixed the calculation on the Time Remaining Applet
+>removed the "more" button in the new version available dialog
+>new version dialog now shows the latest changes
