@@ -290,3 +290,40 @@
     }
 
 })(jQuery);
+
+function closePopup() {
+    document.getElementsByClassName("popup")[0].classList.remove("active");
+}
+
+function copyAddress() {
+    let text = document.getElementsByClassName("crypto-address")[0]
+    navigator.clipboard.writeText(text.textContent.split(" ")[1]);
+    if (text.textContent.includes("copy: ")) { text.textContent = text.textContent.replace("copy: ", "copied! "); }
+    setTimeout(() => {
+        text.textContent = text.textContent.replace("copied! ", "copy: ");
+    }, 3000);
+}
+
+function segwit() {
+    document.getElementsByClassName("qrcode")[0].src = "/images/SegWit.png";
+    document.getElementsByClassName("title")[0].textContent = "Bitcoin SegWit";
+    document.getElementsByClassName("crypto-address")[0].textContent = "copy: bc1q6jpzd0a8maau0keww0ny4zmgemqs9gk0pdc7dx";
+
+    document.getElementsByClassName("popup")[0].classList.add("active");
+}
+
+function legacy() {
+    document.getElementsByClassName("qrcode")[0].src = "/images/Legacy.png";
+    document.getElementsByClassName("title")[0].textContent = "Bitcoin Legacy";
+    document.getElementsByClassName("crypto-address")[0].textContent = "copy: 1EmyPC2Yb1AQhENvRN1tfH57iE3YfxW2Jg";
+
+    document.getElementsByClassName("popup")[0].classList.add("active");
+}
+
+function ethereum() {
+    document.getElementsByClassName("qrcode")[0].src = "/images/Ethereum.png";
+    document.getElementsByClassName("title")[0].textContent = "Ethereum";
+    document.getElementsByClassName("crypto-address")[0].textContent = "copy: 0xB18E1F2F49B6c73A9DC36c0a0f41641FC3FdAb75";
+
+    document.getElementsByClassName("popup")[0].classList.add("active");
+}

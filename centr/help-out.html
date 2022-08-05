@@ -24,7 +24,6 @@
     <!-- Styles -->
     <link href="/css/bootstrap.css" rel="stylesheet">
     <link href="/css/fontawesome-all.min.css" rel="stylesheet">
-    <link href="/css/swiper.css" rel="stylesheet">
 	<link href="/css/centr.css" rel="stylesheet">
 	
 	<!-- Favicon  -->
@@ -51,6 +50,20 @@
         </div>
     </div>
     <!-- end of preloader -->
+
+    <div class="popup center">
+        <img class="qrcode">
+
+        <div class="content">
+            <div class="title">Protocol</div>
+            <div class="crypto-address" onclick="copyAddress()">Crypto Address</div>
+            <div class="message">Thank you so much for your support!</div>
+
+            <div class="dismiss-btn">
+                <button id="dismiss-popup-btn" onclick="closePopup()">dismiss</button>
+            </div>
+        </div>
+    </div>
     
 
     <!-- Navigation -->
@@ -128,8 +141,9 @@
         <!-- Header -->
         <header>
             <div class="versions-container"><div class="versions-text-container"><h4 class="type-release">donate</h4></div></div>
-            <h3 class="versions">Bitcoin (<a class="showlink" href="https://www.blockchain.com/btc/address/bc1q6jpzd0a8maau0keww0ny4zmgemqs9gk0pdc7dx">SegWit</a> or <a class="showlink" href="https://www.blockchain.com/btc/address/1EmyPC2Yb1AQhENvRN1tfH57iE3YfxW2Jg">Legacy</a>)</h3>
-            <h3 class="versions"><a class="showlink" href="https://www.blockchain.com/eth/address/0xB18E1F2F49B6c73A9DC36c0a0f41641FC3FdAb75">Ethereum</a></h3>
+            <h3 class="versions">Bitcoin (<span class="showlink" onclick="segwit()">SegWit</span> or <span class="showlink" onclick="legacy()">Legacy</span>)</h3>
+            <h3 class="versions"><span class="showlink" onclick="ethereum()">Ethereum</span></h3>
+            <h3 class="versions"><a class="showlink" href="https://www.buymeacoffee.com/marvil">Buy Me a Coffee</a></h3>
 
             <div class="versions-container"><div class="versions-text-container"><h4 class="type-release">translate</h4></div></div>
             <h3 class="versions"><a class="showlink" href="https://crowdin.com/project/centr">Crowdin</a></h3>
@@ -152,11 +166,11 @@
                 </ul>
             </div>
             <div>
-                <a href="https://discordapp.com/users/878265271796760586" target="_blank"><i class="fab fa-discord"></i></a>
-                <a href="https://www.twitter.com/marvil_exe" target="_blank"><i class="fab fa-twitter"></i></a>
-                <a href="https://www.youtube.com/channel/UCACecdP8JhDrhgG8I68rZcw" target="_blank"><i class="fab fa-youtube"></i></a>
-                <a href="https://www.linkedin.com/in/jorge-luis-martinez-villarreal-182021227/" target="_blank"><i class="fab fa-linkedin"></i></a>
-                <a href="https://www.instagram.com/marvil.mp4/" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://discordapp.com/users/878265271796760586" target="_blank"><i class="fab fa-discord fa-2xl"></i></a>
+                <a href="https://www.twitter.com/marvil_exe" target="_blank"><i class="fab fa-twitter fa-2xl"></i></a>
+                <a href="https://www.youtube.com/channel/UCACecdP8JhDrhgG8I68rZcw" target="_blank"><i class="fab fa-youtube fa-2xl"></i></a>
+                <a href="https://www.linkedin.com/in/jorge-luis-martinez-villarreal-182021227/" target="_blank"><i class="fab fa-linkedin fa-2xl"></i></a>
+                <a href="https://www.instagram.com/marvil.mp4/" target="_blank"><i class="fab fa-instagram fa-2xl"></i></a>
             </div>
         </div> <!-- end of container -->
     </footer> <!-- end of footer -->
@@ -178,8 +192,6 @@
     <!-- Scripts -->
     <script src="/js/jquery.min.js"></script> <!-- jQuery for Bootstrap's JavaScript plugins -->
     <script src="/js/bootstrap.min.js"></script> <!-- Bootstrap framework -->
-    <script src="/js/jquery.easing.min.js"></script> <!-- jQuery Easing for smooth scrolling between anchors -->
-    <script src="/js/swiper.min.js"></script> <!-- Swiper for image and text sliders -->
     <script src="/js/centr.js"></script> <!-- Custom scripts -->
 </body>
 </html>

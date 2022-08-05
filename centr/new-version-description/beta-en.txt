@@ -1,0 +1,1 @@
+centr Beta 3.2 brings a currency conversion (that works offline!) applet and a search bar in the home screen. 

@@ -35,6 +35,133 @@ p {
     font: 400 1rem/1.75rem Nunito
 }
 
+.center {
+    position:fixed;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+
+.popup {
+    width: auto;
+    height: auto;
+    padding: 30px 30px;
+    background: #21172b;
+    border-radius: 10px;
+    box-sizing: border-box;
+    z-index: 4;
+    text-align: center;
+    opacity: 0;
+    visibility: hidden;
+    transform: translate(-50%, -50%) scale(0.5);
+    transition: opacity 300ms ease-in-out,
+                top 1s ease-in-out,
+                transform 1s ease-in-out,
+                visibility 1s ease-in-out;
+}
+
+.popup.active {
+    opacity: 1;
+    visibility: visible;
+    top: 50%;
+    transform: translate(-50%, -50%) scale(1);
+    transition: transform 300ms cubic-bezier(0.18, 0.89, 0.32, 1.28);
+}
+
+.popup .qrcode {
+    display: inline-block;
+    max-width: 75%;
+    max-height: 75%;
+    width: auto;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 25px;
+}
+
+.popup .content {
+    height: auto;
+}
+
+.popup .content .title {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 10px
+}
+
+.popup .content .crypto-address {
+    cursor: pointer;
+    word-wrap: break-word;
+    font-size: .9rem;
+    font-weight: 700;
+    color: #aaa;
+    margin-bottom: 10px;
+}
+
+.popup .content .message {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #eee;
+    margin-bottom: 10px;
+    transition: all 100ms ease-in-out;
+}
+
+.popup .content .dismiss-btn {
+    margin-top: 15px;
+}
+
+.popup .content .dismiss-btn button {
+    padding: 10px 20px;
+    background: #0c0414;
+    color: #ffffff;
+    font-size: 2rem;
+    font-weight: 700;
+    outline: none;
+    border: transparent solid 2px;
+    border-radius: 10px;
+    transition: all 150ms ease-in-out;
+}
+
+.popup .content .dismiss-btn button:hover {
+    background: #21172b;
+    color: #9f58f2;
+    border: #9f58f2 solid 2px;
+}
+
+.popup > div {
+    position: relative;
+    top: 10px;
+    opacity: 0;
+
+}
+
+.popup.active > div {
+    top:0px;
+    opacity: 1;
+}
+
+.popup .content > div {
+    position: relative;
+    top: 10px;
+    opacity: 0;
+
+}
+
+.popup.active .content > div {
+    top:0px;
+    opacity: 1;
+}
+
+.popup .content .title { opacity: 0; transition: all .3s ease-in-out 50ms; }
+.popup .content .crypto-address { opacity: 0; transition: all .3s ease-in-out 100ms; }
+.popup .content .message { opacity: 0; transition: all .3s ease-in-out 150ms; }
+.popup .content .dismiss-btn { opacity: 0; transition: all .3s ease-in-out 200ms; }
+
+.popup.active .content .title { transition: all .3s ease-in-out 50ms; }
+.popup.active .content .crypto-address { transition: all .3s ease-in-out 100ms; }
+.popup.active .content .message { transition: all .3s ease-in-out 150ms; }
+.popup.active .content .dismiss-btn { transition: all .3s ease-in-out 200ms; }
+
 .p-large {
     font: 400 1.125rem/1.875rem Nunito
 }
@@ -217,9 +344,32 @@ a.purple {
 }
 
 .showlink {
+    cursor: pointer;
     white-space: pre;
     color: #9f58f2;
+    text-decoration: none;
+    transition: all .2s ease-in-out;
 }
+
+.showlink:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.fakelink {
+    cursor: pointer;
+    white-space: pre;
+    color: #9f58f2;
+    text-decoration: none;
+    transition: all .2s ease-in-out;
+}
+
+.fakelink:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+
 
 .versions {
     white-space: pre;
@@ -385,7 +535,7 @@ a.purple {
 
 .spinner-wrapper {
     position: fixed;
-    z-index: 999999;
+    z-index: 3;
     top: 0;
     right: 0;
     bottom: 0;
@@ -850,7 +1000,7 @@ footer p {
 
 a.back-to-top {
     position: fixed;
-    z-index: 999;
+    z-index: 2;
     right: .75rem;
     bottom: .75rem;
     display: none;
@@ -868,7 +1018,19 @@ a:hover.back-to-top {
     transition: all .2s
 }
 
+@media only screen and (max-device-width:480px)
+{
+    .popup {
+        width: auto;
+        height: auto;
+        max-width: 75%;
+        max-height: 75%;
+    }
+    .popup .title { font-size: 1.5rem; }
+}
+
 @media (min-width:768px) {
+
     .header .text-container {
         margin-bottom: 6rem
     }
@@ -898,6 +1060,7 @@ a:hover.back-to-top {
 }
 
 @media (min-width:992px) {
+    
     .container {
         max-width: 1140px
     }
@@ -1129,6 +1292,25 @@ a:hover.back-to-top {
 }
 
 @media (min-width:1200px) {
+
+    .popup {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .popup .qrcode{
+        margin-bottom: 0px;
+        width: 40%;
+        height: 40%;
+    }
+
+    /* center .popup .content vertically but not horizontally */
+
+    .popup .content {
+        flex: auto;
+        align-self: center;
+    }
+
     .container {
         max-width: 1140px
     }
