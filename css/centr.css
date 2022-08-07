@@ -57,7 +57,7 @@ p {
     transition: opacity 300ms ease-in-out,
                 top 1s ease-in-out,
                 transform 1s ease-in-out,
-                visibility 1s ease-in-out;
+                visibility 300ms ease-in-out;
 }
 
 .popup.active {
@@ -126,6 +126,24 @@ p {
     background: #21172b;
     color: #9f58f2;
     border: #9f58f2 solid 2px;
+}
+
+.page-mask {
+    background-color: #0C0414;
+    opacity: 0%;
+    visibility: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: opacity 300ms ease-in-out,
+                visibility 300ms ease-in-out;
+}
+
+.page-mask.active {
+    opacity: 75%;
+    visibility: visible;
 }
 
 .popup > div {

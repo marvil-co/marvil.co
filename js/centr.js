@@ -293,6 +293,7 @@
 
 function closePopup() {
     document.getElementsByClassName("popup")[0].classList.remove("active");
+    document.getElementsByClassName("page-mask")[0].classList.remove("active");
 }
 
 function copyAddress() {
@@ -310,6 +311,7 @@ function segwit() {
     document.getElementsByClassName("crypto-address")[0].textContent = "copy: bc1q6jpzd0a8maau0keww0ny4zmgemqs9gk0pdc7dx";
 
     document.getElementsByClassName("popup")[0].classList.add("active");
+    document.getElementsByClassName("page-mask")[0].classList.add("active");
 }
 
 function legacy() {
@@ -318,6 +320,7 @@ function legacy() {
     document.getElementsByClassName("crypto-address")[0].textContent = "copy: 1EmyPC2Yb1AQhENvRN1tfH57iE3YfxW2Jg";
 
     document.getElementsByClassName("popup")[0].classList.add("active");
+    document.getElementsByClassName("page-mask")[0].classList.add("active");
 }
 
 function ethereum() {
@@ -326,4 +329,5 @@ function ethereum() {
     document.getElementsByClassName("crypto-address")[0].textContent = "copy: 0xB18E1F2F49B6c73A9DC36c0a0f41641FC3FdAb75";
 
     document.getElementsByClassName("popup")[0].classList.add("active");
+    document.getElementsByClassName("page-mask")[0].classList.add("active");
 }
