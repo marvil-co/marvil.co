@@ -51,6 +51,7 @@
         }
     });
 
+
     $(function() {
         $(document).on('click', 'a.page-scroll', function(event) {
             var $anchor = $(this);
