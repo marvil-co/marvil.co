@@ -7,18 +7,6 @@
 
     function highlighter() {
         setTimeout(function() {
-
-            if (window.location.href == "https://marvil.co/insta") {
-                window.location.href = 'https://www.instagram.com/marvil.mp4/';
-            } else if (window.location.href == "https://marvil.co/ig") {
-                window.location.href = 'https://www.instagram.com/marvil.mp4/';
-            } else if (window.location.href == "https://marvil.co/instagram") {
-                window.location.href = 'https://www.instagram.com/marvil.mp4/';
-            } else if (window.location.href == "https://marvil.co/yt") {
-                window.location.href = 'https://www.youtube.com/channel/UCACecdP8JhDrhgG8I68rZcw?';
-            } else if (window.location.href == "https://marvil.co/youtube") {
-                window.location.href = 'https://www.youtube.com/channel/UCACecdP8JhDrhgG8I68rZcw?';
-            }
             highlighterAction();
         }, 200);
     }
@@ -242,18 +230,6 @@
         });
     }
 
-    function pformSuccess() {
-        $("#privacyForm")[0].reset();
-        psubmitMSG(true, "Request Submitted!");
-        $("input").removeClass('notEmpty');
-    }
-
-    function pformError() {
-        $("#privacyForm").removeClass().addClass('shake animated').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function() {
-            $(this).removeClass();
-        });
-    }
-
     function psubmitMSG(valid, msg) {
         if (valid) {
             var msgClasses = "h3 text-center tada animated";
@@ -262,7 +238,6 @@
         }
         $("#pmsgSubmit").removeClass().addClass(msgClasses).text(msg);
     }
-
 
     $('body').prepend('<a href="body" class="back-to-top page-scroll">Back to Top</a>');
     var amountScrolled = 700;
@@ -273,9 +248,6 @@
             $('a.back-to-top').fadeOut('500');
         }
     });
-
-
-
 
     $(".button, a, button").mouseup(function() {
         $(this).blur();
