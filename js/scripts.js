@@ -52,6 +52,7 @@ function contactFormSubmit() {
     mailContentValue = (document.getElementById('mail-content').value);
 
     if (isValidMail && isValidEmail && isValidContent) {
-        window.open('http://maker.ifttt.com/trigger/contactform/with/key/bh-7CUDtGTTvE41YHEXoHY?value1=' + nameFormValue + '&value2=' + emailFormValue + '&value3=' + mailContentValue)
+        url = 'http://maker.ifttt.com/trigger/contactform/with/key/bh-7CUDtGTTvE41YHEXoHY?value1=' + nameFormValue + '&value2=' + emailFormValue + '&value3=' + mailContentValue
+        window.open(url, '_blank');
     } //open IFTTT webhook to send me a mail
 }
