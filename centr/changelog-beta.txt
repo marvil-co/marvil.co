@@ -96,7 +96,7 @@ centr 3.0 - v13
 >the die roll and coin flip applets now have visual feedback instead of just haptic
 >added the passphrase generator applet
 >complete redesign of the QR code scanner applet
->QR code scanner applet now supports the front-facing camera. If the flash is turned on with the front-facing camera, the screen will have a white background
+>QR code scanner applet now supports the front-facing camera; if the flash is turned on with the front-facing camera, the screen will have a white background
 >design update for the time remaining calculator applet
 >now you can set your preference for decimal precision in all conversion applets
 >permission requests are now handled better
