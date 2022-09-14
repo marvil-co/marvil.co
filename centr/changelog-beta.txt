@@ -1,0 +1,126 @@
+centr 1.0 - v1
+>first public release
+
+////////////////////
+
+centr 1.1 - v2
+>fixed issue where layouts would not scale well with other devices
+>bug fix request emails now include phone details: manufacturer, model, android release, sdk, SOC manufacturer, SOC model
+
+////////////////////
+
+centr 1.1.1 - v3
+>fixed issue where in conversion activities, inputs with decimals would replace "." with "0.", causing, for example, the number "5.5" to turn into "50.5"
+
+////////////////////
+
+centr 1.1.2 - v4
+>fixed issue where in conversion activities, inputs with decimals would replace "." with "0.", causing, for example, the numer "5.5" to turn into "50.5" (again)
+>fixed issue where password generator checkboxes wouldn't update when certain combinations were used
+>fixed issue where password generator's "# of characters" buttons wouldn't vibrate when pressed if all checkboxes were unchecked 
+
+////////////////////
+
+centr 1.1.3 - v5
+>fixed issue where negative values could not be entered in temperature conversions
+
+////////////////////
+
+centr 1.2 - v6
+>added time remaining calculator
+>added function in color picker where you could use three sliders (for r, g, b) to choose a color
+
+////////////////////
+
+centr 1.2.1 - v7
+>added option to disable haptic feedback
+>changed "about text"
+>changed order of "support the developer" applets: "share app" is now before donations
+
+////////////////////
+
+centr 1.3 - v8
+>added option to scan a QR code from gallery
+>added a switch unit button in all conversion activities
+>haptic feedback settings now update instantly
+
+////////////////////
+
+centr 1.4 - v9
+>fixed issue where screen would rotate in color picker
+>added time conversion applet
+>added tax calculator applet
+>added time remaining calculator applet
+>translated app to Spanish (es-mx)
+>changed design of plus and minus buttons, to fit the theme better
+>revised the UI
+>centr will check for a newer version at startup, and notify the user if there is one
+
+////////////////////
+
+centr 2.0 - v10
+>changed the "disable haptic feedback" option (in "off" state, haptic feedback would be enabled; in "on" state, haptic feedback would be disabled) to "enable haptic feedback" (in "on" state, haptic feedback is enabled, in "off" state, it's disabled)
+>redesigned icons to be more cohesive
+>added "credits and thanks" section
+>changed the "share app" link, as previous link would lead to a 404
+>added ruler applet
+>tip calculator, tax calculator, and password generator applets' plus/minus buttons will grey out if you reach the minimum or maximum amount of tip (no tip), people (1 person), tax (no tax), and characters (5-128 characters)
+>optimization of password generator algorithm
+>optimization of all conversion applets (10x improvement in performance for conversions!)
+>added area conversion applet
+>added a glassmorphic background by default, as well as a "high contrast" mode in settings to disable it
+>fixed bug where you would not be able to see all units in the conversions applets, and you would not be able to scroll
+>added feature where when clicking out of the "input" box and into a unit selection dropdown in a conversion applet, the keyboard will hide automatically
+>top corners are rounded on all activities
+>added new units to volume conversion
+>added speed conversion applet
+>added data conversion applet
+>88% reduction in file size!
+
+////////////////////
+
+centr 2.0.1 - v11
+>fixed bug where in tip calculator and tax calculator applets, pressing the "more" button wouldn't un-grey out the "less" button if it had been previously greyed out
+
+////////////////////
+
+centr 2.0.2 - v12
+>fixed bug where in the temperature conversion applet, entering only "-" or "-.", for negative numbers, would crash the app
+>added optional telemetry (country, city, and device info) and mandatory telemetry (just the existence of the device)
+
+centr 3.0 - v13
+>added themes
+>dropdown menus in conversion applets have a new design, better suited for screenreaders
+>added content description to all images for accessibility
+>tip and tax percentage now remember your preferences
+>the die roll and coin flip applets now have visual feedback instead of just haptic
+>added the passphrase generator applet
+>complete redesign of the QR code scanner applet
+>QR code scanner applet now supports the front-facing camera. If the flash is turned on with the front-facing camera, the screen will have a white background
+>design update for the time remaining calculator applet
+>now you can set your preference for decimal precision in all conversion applets
+>permission requests are now handled better
+>the strength of haptic feedback depends on the action, such as tapping vs pressing-and-holding
+>removed the telemetry :)
+>fixed bug where centr would crash if there was no internet connection (to search for a new version)
+>added energy conversion applet
+>added pressure conversion applet
+
+////////////////////
+
+centr Beta 3.1 - v14
+>added new "fun" theme category, which include backgrounds: Christmas, Halloween, love, nature, winter, and party
+>added Material You theme, where the color of centr is chosen by your wallpaper
+>fixed the calculation on the Time Remaining applet
+>added changelog applet
+>removed the "more" button in the "new version available" dialog
+>new version dialog now shows the latest changes
+>the "download" button in the new version dialog now leads to the page where you can download the Beta instead of the homepage.
+
+////////////////////
+
+centr Beta 3.2 - v15 (still in development!)
+>added a currency conversion applet (that works offline!)
+>added a search bar in the home screen
+>moved to Material 3
+>bug fixes
